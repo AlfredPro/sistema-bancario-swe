@@ -1,7 +1,25 @@
+using BankTransfer.DataAccess;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.SqlServer.Server;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Add configuration
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(builder.Environment.ContentRootPath)
+    .AddJsonFile("appsettings.json")
+    .Build();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<BankTransfer.DataAccess.DbContext>(options =>
+        options.UseSqlServer(configuration.GetConnectionString("DbConnectionString")));
+//builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<TransferRepository>();
+
 
 var app = builder.Build();
 
@@ -21,5 +39,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.UseStaticFiles();
 
 app.Run();

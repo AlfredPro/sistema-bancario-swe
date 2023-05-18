@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Alfredo\\Documents\\UP\\8Semestre\\SWE\\proj\\BankTransfer\\wwwroot\\images\\bank-logo.png",
+      "PackagePath": "staticwebassets\\images\\bank-logo.png"
+    },
+    {
       "Id": "C:\\Users\\Alfredo\\Documents\\UP\\8Semestre\\SWE\\proj\\BankTransfer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

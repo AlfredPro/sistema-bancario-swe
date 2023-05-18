@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rnEVklaursFUJDZqYliGaauVOOTDXn/OChxutT7Vb44=",
+  "Hash": "RGXJn7ZK2V4vZLZqO1y0Msobtrz90qV3pOWI3Omrl4M=",
   "Source": "BankTransfer",
   "BasePath": "_content/BankTransfer",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Alfredo\\Documents\\UP\\8Semestre\\SWE\\proj\\BankTransfer\\wwwroot\\images\\bank-logo.png",
+      "SourceId": "BankTransfer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alfredo\\Documents\\UP\\8Semestre\\SWE\\proj\\BankTransfer\\wwwroot\\",
+      "BasePath": "_content/BankTransfer",
+      "RelativePath": "images/bank-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bank-logo.png"
     },
     {
       "Identity": "C:\\Users\\Alfredo\\Documents\\UP\\8Semestre\\SWE\\proj\\BankTransfer\\wwwroot\\js\\site.js",

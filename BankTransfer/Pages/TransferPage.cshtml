@@ -1,0 +1,77 @@
+﻿@page
+@model BankTransfer.Pages.TransferPageModel
+@{
+ViewData["Title"] = "Transfer Money";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Transfer Money</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #004d99;
+        }
+
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="submit"] {
+            padding: 5px;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #004d99;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <img src="/images/bank-logo.png" class="logo" alt="Bank Logo"/>
+
+    <h1>Transfer Money</h1>
+
+    <form method="post">
+        <div>
+            <label for="receiverAccountNumber">Receiver Account Number:</label>
+            <input type="text" id="receiverAccountNumber" name="ReceiverAccountNumber" />
+        </div>
+        <div>
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="Amount" />
+        </div>
+        <div>
+            <input type="submit" value="Transfer" />
+        </div>
+        @if (!ModelState.IsValid)
+        {
+            <div class="error">
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
+    </form>
+</body>
+</html>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fhv/iL10Q3E6A0Rh8RNty1ICR19pUQoeW90Ha1hdTHwWEvLi8drlQNWibnGmXnd030d8u3XpzvweGyNdAaFspg==",
+  "dgSpecHash": "F/Jyw8ryABqCri5o4mePauxVm26tGTY4y2FyM70dYdbHnx5b5PlkaEQOm0r3FoeFpsGYHwkNsmL9D6KuQSEolg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alfredo\\Documents\\UP\\8Semestre\\SWE\\proj\\BankTransfer\\BankTransfer.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\Alfredo\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.5\\microsoft.entityframeworkcore.tools.7.0.5.nupkg.sha512",
     "C:\\Users\\Alfredo\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Alfredo\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\Alfredo\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Alfredo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Alfredo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Alfredo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
